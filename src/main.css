@@ -1,0 +1,29 @@
+
+body {
+    
+    background-color: rgb(205, 202, 202);
+    text-align: center;
+    border: 50px outset rgb(109, 46, 157);
+}
+h1 {
+    
+    color: rgb(70, 68, 171);
+}
+p {
+    color: rgb(1, 1, 1);
+}
+img {
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(186, 206, 114);
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
